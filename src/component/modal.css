@@ -1,0 +1,46 @@
+.wrapModal{
+    align-items: center;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top:0;
+    width: 100vw;
+    opacity: 0;
+    z-index: -1;
+    transition:all .5s
+}
+
+.wrapModal .modal{
+    background: #fff;
+    border-radius: 5px;
+    max-width: 550px;
+    width: 100%;
+    position: relative;
+    padding: 15px;
+    /* action */
+    transform: translateY(-66vh);
+    transition: all 0.4s 0.1s cubic-bezier(.09,-0.62,.79,1.79)
+}
+
+.wrapModal .buttonClose{
+    position: absolute;
+    right: 10px;
+    top: 17px;
+    font-size: 20px;
+    color: #13e2c6;
+}
+.wrapModal .buttonClose:active{
+    color: #128575;
+}
+
+/* action */
+.wrapModal.active{
+    opacity: 1;
+    z-index: 9999
+}
+.wrapModal.active .modal{
+    transform: translateY(0);
+}

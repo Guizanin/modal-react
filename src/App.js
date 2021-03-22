@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import './app.css'
+import Modal from './component/Modal';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <button id="modalPrimari" style={{border:'solid 1px ', position:'absolute',top:'40%',left:'40%',fontSize:'20px',padding:'20px', borderRadius:'10px'}}>
+        Chama modal
+      </button>
+      <Modal btnOpen="modalPrimari" modalClass="classteste" modalTitle="Título do modal" />
     </div>
   );
 }
