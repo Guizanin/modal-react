@@ -24,7 +24,9 @@
     transform: translateY(-66vh);
     transition: all 0.4s 0.1s cubic-bezier(.09,-0.62,.79,1.79)
 }
-
+.wrapModal .modalHeader{
+    margin-bottom: 15px;
+}
 .wrapModal .buttonClose{
     position: absolute;
     right: 10px;
