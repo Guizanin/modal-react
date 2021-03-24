@@ -33,6 +33,7 @@
     top: 17px;
     font-size: 20px;
     color: #13e2c6;
+    cursor: pointer;
 }
 .wrapModal .buttonClose:active{
     color: #128575;
