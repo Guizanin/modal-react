@@ -12,10 +12,19 @@ export default function Modal(props) {
     return(
         <div className={`wrapModal ${isVisible}`}>
             <div className={`modal ${props.modalClass ? props.modalClass : ''} `}>
-                <button 
-                    className="buttonClose fas fa-times-circle"
-                    onClick={() => setIsVisible('')}
-                />
+                {props.btnOpen2Modal ?
+                (
+                    <button 
+                        id={props.btnOpen2Modal}
+                        className={`buttonClose fas fa-times-circle`}
+                        onClick={() => setIsVisible('')}
+                    />
+                ) : (
+                    <button 
+                        className={`buttonClose fas fa-times-circle`}
+                        onClick={() => setIsVisible('')}
+                    />
+                )}
                 {props.modalTitle ? (
                     <h3 className="modalHeader">
                     {props.modalTitle} 
