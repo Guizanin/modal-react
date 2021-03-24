@@ -12,4 +12,4 @@
 * _children_ => custom content of the modal
 
 ### Demonstration
-![Demonstration] (https://github.com/Guizanin/modal-react/blob/main/bookmark2.gif)
+![Demonstration](https://github.com/Guizanin/modal-react/blob/main/bookmark2.gif)
