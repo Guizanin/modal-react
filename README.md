@@ -1,8 +1,8 @@
 # Component MODAL
 
-## Actions:
+## Behavior:
 * call only one modal
-* on close in primary modal call second modal
+* call the second modal to the closing the primary modal
 
 ### Props:
 * _btnOpen_ => indicates the button that will call the modal;
