@@ -10,3 +10,6 @@
 * _modalTitle_ => indicates title "h3" to the modal;
 * _btnOpen2Modal_ => indicates the second mode that will be called when closing the current mode
 * _children_ => custom content of the modal
+
+### Demonstration
+![Demonstration] (https://github.com/Guizanin/modal-react/blob/main/bookmark2.gif)
