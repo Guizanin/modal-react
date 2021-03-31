@@ -1,4 +1,6 @@
-import './app.css'
+
+import './App.css';
+
 import Modal from './component/Modal';
 
 function App() {
